@@ -1,0 +1,83 @@
+@import "styles/var";
+@import "styles/breakpoints";
+
+.nav {
+    padding: 20px $padding-horizontal;
+    margin: 0;
+    width: 100%;
+    height: 180px;
+    display: flex;
+
+  @media (max-width: $desktop_xsm) {
+    padding: 20px $padding-horizontal-mobile;
+  }
+  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+    padding: 20px $padding-horizontal-sm;
+  }
+  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+    padding: 20px $padding-horizontal-md;
+  }
+}
+
+.logo{
+    display: flex;
+
+    align-items: center;
+    gap: 0;
+    &__text{
+        color: #FF0000;
+        font-size: 3.2rem;
+        margin-top: 0;
+        font-weight: 600;
+    }
+}
+
+.header {
+  align-items: center;
+  background-color: #222421;
+  background-image: url("/assets/menuscrap/header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  height: 360px;
+  justify-content: center;
+  @media (max-width: $desktop_xsm) {
+    padding: 0px $padding-horizontal-mobile;
+  }
+  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+    padding: 0px $padding-horizontal-sm;
+  }
+  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+    padding: 0px $padding-horizontal-md;
+  }
+  &__text {
+    color: #f6f6f6;
+    font-size: 2.4rem;
+    min-width: 400px;
+    text-align: center;
+    width: 40%;
+    &__span{
+        color: #ffd900;
+        font-weight: 700;
+    }
+  }
+}
+
+.menu {
+  padding: 50px $padding-horizontal;
+  @media (max-width: $desktop_xsm) {
+    padding: 50px $padding-horizontal-mobile;
+  }
+  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+    padding: 50px $padding-horizontal-sm;
+  }
+  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+    padding: 50px $padding-horizontal-md;
+  }
+  &__title {
+    color: $dark;
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+}
