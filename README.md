@@ -2,6 +2,9 @@
 
 A pizza website, with the aim of using advanced filters when searching for orders
 
+![image](https://github.com/user-attachments/assets/5062414e-b989-41c0-ada8-32c0e39fd022)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
