@@ -8,6 +8,7 @@ import Search from "./Search"
 import { useState } from "react"
 import Filter from "./Filter"
 import Orderer from "./Orderer"
+import Itens from "./Itens"
 
 export default function MenuScrap() {
     const [search, setSearch] = useState("");
@@ -59,8 +60,7 @@ export default function MenuScrap() {
                     setOrderer={setOrderer}
                     />
                 </div>
-
-
+                <Itens search={search} filter={filter} orderer={orderer}  />
             </section>
         </main>
     )

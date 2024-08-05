@@ -1,0 +1,135 @@
+[
+    {
+        "title": "Margherita Pizza",
+        "description": "Classic Margherita pizza with fresh tomatoes, mozzarella, and basil.",
+        "photo": "/assets/pizza/pizza_margherita.png",
+        "size": 400,
+        "serving": 2,
+        "price": 55.0,
+        "id": 1,
+        "category": {
+            "id": 1,
+            "label": "Pasta"
+        }
+    },
+    {
+        "title": "Four Cheese Pizza",
+        "description": "A blend of mozzarella, cheddar, parmesan, and blue cheese.",
+        "photo": "/assets/pizza/pizza_four_cheese.png",
+        "size": 400,
+        "serving": 2,
+        "price": 75.0,
+        "id": 2,
+        "category": {
+            "id": 1,
+            "label": "Pasta"
+        }
+    },
+    {
+        "title": "Mushroom and Spinach Pizza",
+        "description": "Topped with mushrooms, spinach, garlic, and mozzarella cheese.",
+        "photo": "/assets/pizza/pizza_mushroom_spinach.png",
+        "size": 400,
+        "serving": 2,
+        "price": 58.0,
+        "id": 3,
+        "category": {
+            "id": 1,
+            "label": "Pasta"
+        }
+    },
+   {
+        "title": "Pepperoni Pizza",
+        "description": "Delicious pepperoni pizza with mozzarella cheese and tomato sauce.",
+        "photo": "/assets/pizza/pizza_pepperoni.png",
+        "size": 400,
+        "serving": 2,
+        "price": 65.0,
+        "id": 4,
+        "category": {
+            "id": 2,
+            "label": "Meat"
+        }
+    },
+    {
+        "title": "BBQ Chicken Pizza",
+        "description": "BBQ chicken pizza topped with red onions, mozzarella, and cilantro.",
+        "photo": "/assets/pizza/pizza_bbq_chicken.png",
+        "size": 400,
+        "serving": 2,
+        "price": 70.0,
+        "id": 5,
+        "category": {
+            "id": 2,
+            "label": "Meat"
+        }
+    },
+    {
+        "title": "Chicken with Catupiry Pizza",
+        "description": "Pizza topped with shredded chicken and creamy Catupiry cheese.",
+        "photo": "/assets/pizza/pizza_chicken_catupiry.png",
+        "size": 400,
+        "serving": 2,
+        "price": 68.0,
+        "id": 6,
+        "category": {
+            "id": 2,
+            "label": "Meat"
+        }
+    },    {
+        "title": "Neapolitan Pizza",
+        "description": "Classic Neapolitan pizza with tomatoes, mozzarella, and basil.",
+        "photo": "/assets/pizza/pizza_neapolitan.png",
+        "size": 400,
+        "serving": 2,
+        "price": 72.0,
+        "id": 7,
+        "category": {
+            "id": 3,
+            "label": "Combos"
+        }
+    },
+    {
+        "title": "Strawberry Chocolate Pizza",
+        "description": "Sweet pizza topped with fresh strawberries and melted chocolate.",
+        "photo": "/assets/pizza/pizza_strawberry_chocolate.png",
+        "size": 800,
+        "serving": 4,
+        "price": 120.0,
+        "id": 8,
+        "category": {
+            "id": 3,
+            "label": "Combos"
+        }
+    
+    },{
+        "title": "Mediterranean Pizza",
+        "description": "Loaded with olives, feta cheese, red onions, and bell peppers.",
+        "photo": "/assets/pizza/pizza_mediterranean.png",
+        "size": 400,
+        "serving": 2,
+        "price": 65.0,
+        "id": 9,
+        "category": {
+            "id": 4,
+            "label": "Vegan"
+        }
+    },
+    {
+        "title": "Vegan Delight Pizza",
+        "description": "A mix of fresh vegetables on a vegan cheese base.",
+        "photo": "/assets/pizza/pizza_vegan.png",
+        "size": 400,
+        "serving": 2,
+        "price": 60.0,
+        "id": 10,
+        "category": {
+            "id": 4,
+            "label": "Vegan"
+        }
+    }
+   
+]
+
+
+
