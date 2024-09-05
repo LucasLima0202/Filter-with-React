@@ -1,11 +1,14 @@
 import menu from 'data/menu.json';
 import styles from "./Home.module.scss";
+import Header from 'components/header';
 
 export default function Home() {
     let topfeatureddishes = [...menu];
     topfeatureddishes = topfeatureddishes.sort(() => 0.5 - Math.random()).splice(0,3);
 return(
+    
     <section>
+        <Header/>
     <h3 className={styles.title}>
         Kitchen Recommendations
     </h3>

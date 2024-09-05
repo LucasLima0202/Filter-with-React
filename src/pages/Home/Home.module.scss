@@ -3,13 +3,14 @@
   color: $dark;
   font-size: 3rem;
   margin-bottom: 30px;
+  text-align: center;
 }
 .recomendados {
   border-radius: 2px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .recomendado {
   &__imagem {
