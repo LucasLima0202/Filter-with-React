@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Item from "./Item";
 import styles from "./Itens.module.scss";
-import menu from "./itens.json";
+import menu from "data/menu.json";
 
 interface Props {
   search: string,

@@ -35,7 +35,7 @@ export default function MenuScrap() {
                     <SepLeft />
                 </div>
                 <div className={style.nav__info}>
-
+                   <a className={style.nav__info__a} href="/">Home</a> 
                 </div>
             </nav>
             <header className={style.header}>

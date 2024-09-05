@@ -2,10 +2,10 @@
 @import "styles/breakpoints";
 
 .nav {
-    padding: 20px $padding-horizontal;
+    padding: 60px 150px;
     margin: 0;
     width: 100%;
-    height: 180px;
+    height: 100px;
     display: flex;
     background-color: #D62E2E;
   @media (max-width: $desktop_xsm) {
@@ -18,10 +18,24 @@
     padding: 20px $padding-horizontal-md;
   }
 }
-
+.nav__info{
+  padding-left: 45%;
+  display: flex;
+  flex-flow: row nowrap;
+ 
+&__a{
+  text-decoration: none;
+  color: #f6f6f6;
+  transition:all 0.2s ease-in-out;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+}
 .logo{
     display: flex;
     padding: 0% 1%;
+    width: 10vw;
     align-items: center;
 }
 
@@ -31,12 +45,17 @@
  flex-wrap: nowrap;
  align-items: center;
  padding: 0% 2%;
+ width: 7vw;
  gap: 10px;
+
 }
 .bar{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  width: 25px;
+  height: 13vh;
+  overflow: hidden;
   align-items: center;
   gap: 10px;
 }
